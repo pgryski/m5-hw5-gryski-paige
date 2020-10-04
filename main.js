@@ -1,6 +1,10 @@
 var pizza = {
-    crust:2, 
-    cheese:3, 
-    sauce:4
+    crust: "wheat", 
+    cheese: "regular", 
+    sauce: "tomato",
+    addToppings: function() {
+        console.log("Please add pepperoni and sausage");
+    }
 };
+
 
